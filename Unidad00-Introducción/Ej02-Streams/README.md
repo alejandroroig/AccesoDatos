@@ -2,4 +2,4 @@
 
 ## 2. Programación funcional y streams
 
-Podéis encontrar la clase Ej02 que da pie a los ejercicios propuestos. Una vez finalizado el plazo de entrega, se colgarán las soluciones a los ejercicios propuestos
+Podéis encontrar en el fichero Ej02.java la clase Libro que da pie a los ejercicios propuestos. Una vez finalizado el plazo de entrega, se colgarán las soluciones a los ejercicios propuestos
