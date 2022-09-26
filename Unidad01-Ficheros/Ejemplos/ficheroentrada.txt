@@ -1,4 +1,4 @@
-En este fichero de ejemplo vamos a tener 5 líneas.
+En este fichero de ejemplo tenemos 5 líneas.
 Esta será la segunda,
 esta la tercera
 esta la cuarta y penúltima

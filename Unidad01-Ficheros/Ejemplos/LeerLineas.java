@@ -27,8 +27,8 @@ public class LeerLineas {
         // El fichero se lee a un String. También acepta como 2º parámetro el charset, por defecto UTF-8
         System.out.println("\nLectura del fichero con Files.readString");
         try {
-            String sfichero = Files.readString(nombreFichero);
-            System.out.println(sfichero);
+            String fichero = Files.readString(nombreFichero);
+            System.out.println(fichero);
         } catch (IOException ex) {
             ex.printStackTrace();
         }

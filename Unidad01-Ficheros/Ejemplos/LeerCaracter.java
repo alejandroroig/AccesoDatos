@@ -10,6 +10,7 @@ public class LeerCaracter {
         // Aunque por eficiencia tiene más sentido leer un archivo por bloques,
         // también podemos forzar su lectura carácter a carácter con la clase FileReader
         System.out.println("\nLectura del fichero con FileReader");
+
         try (FileReader fr = new FileReader(nombreFichero.toFile())) {
             int leido;
             while ((leido = fr.read()) != -1) {
