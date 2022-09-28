@@ -6,3 +6,7 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
 Lee los caracteres, uno a uno, que contiene un fichero de texto.
 2. [LeerLineas](LeerLineas.java)
 Lee las líneas completas que contiene un fichero de texto.
+3. [EscribirLineas](EscribirLineas.java)
+Escribe líneas en un fichero de texto.
+4. [AñadirLíneas](AnadirLineas.java)
+Añade líneas al final de un fichero de texto.
