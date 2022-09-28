@@ -8,5 +8,5 @@ Lee los caracteres, uno a uno, que contiene un fichero de texto.
 Lee las líneas completas que contiene un fichero de texto.
 3. [EscribirLineas](EscribirLineas.java)
 Escribe líneas en un fichero de texto.
-4. [AñadirLíneas](AnadirLineas.java)
+4. [AñadirLineas](AnadirLineas.java)
 Añade líneas al final de un fichero de texto.
