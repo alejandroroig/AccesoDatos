@@ -10,3 +10,7 @@ Lee las líneas completas que contiene un fichero de texto.
 Escribe líneas en un fichero de texto.
 4. [AñadirLineas](AnadirLineas.java)
 Añade líneas al final de un fichero de texto.
+5. [LeerEscribirBytes](LeerEscribirBytes.java)
+Lectura y yescritura de ficheros binarios
+6. [Serializacion](Serializacion.java)
+Serialización y deserialización de objetos en ficheros
