@@ -43,7 +43,7 @@ public class SolEj02 {
 
         // Mostrar en consola la suma total de las páginas de todos los libros
         System.out.println("\nEjercicio 5");
-        int totalpaginas = libros.stream().mapToInt(Libro::getNumPaginas).reduce(0, Integer::sum);
+        int totalpaginas = libros.stream().mapToInt(Libro::getNumPaginas).sum();
         System.out.println("El total de páginas es de " + totalpaginas);
 
         // Mostrar en consola todos aquellos libros que superen el promedio en cuanto a número de páginas se refiere
