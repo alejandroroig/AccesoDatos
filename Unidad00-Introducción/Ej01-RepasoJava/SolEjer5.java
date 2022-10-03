@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
-import static java.lang.Math.sqrt;
-
 public class SolEjer5 {
     public static boolean esPrimo(int numero) {
-        for (int i = 2; sqrt(numero) >= i; i++)
-            if(numero%i == 0)
-                return false;
+        if (numero <= 1 || numero % 2 == 0) return false;
+        for (int i=3; i*i <= numero; i+=2) {
+            if (numero % i == 0) return false;
+        }
         return true;
     }
 

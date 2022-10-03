@@ -1,23 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 import java.util.Scanner;
-
-import static java.lang.Math.sqrt;
+import java.util.stream.Collectors;
 
 public class SolEjer2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Dame un número entero: ");
         int numero = sc.nextInt();
-        System.out.print(numero + " = ");
+        int aux = numero;
+        List<Integer> factoresPrimos = new ArrayList<>();
 
         // for (int 1 = 2; numero > i; i++) funcionaría también,
         // pero es más eficiente buscar hasta la raíz cuadrada de numero
-        for (int i = 2; sqrt(numero) >= i; i++) {
-            while ((numero%i == 0) && (numero != i)) {
-                System.out.print(i + " * ");
-                numero = numero / i;
+        for (int i = 2; i * i <= aux; i++) {
+            while ((aux%i == 0) && (aux != i)) {
+                factoresPrimos.add(i);
+                aux /= i;
             }
         }
-        System.out.println(numero);
+        if (aux > 2)
+            factoresPrimos.add(aux);
+
+        System.out.println(numero + " = " + factoresPrimos.stream().map(Objects::toString).collect(Collectors.joining(" * ")));
 
     }
 }

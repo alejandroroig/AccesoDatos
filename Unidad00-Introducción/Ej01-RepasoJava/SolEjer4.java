@@ -8,7 +8,7 @@ public class SolEjer4 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Dame un número del 1 al 12: ");
         int mes = sc.nextInt();
-
-        System.out.println("El mes " + mes + " es " +  meses[mes-1]);
+        if (mes >= 1 && mes <= 12)
+            System.out.println("El mes " + mes + " es " +  meses[mes-1]);
     }
 }

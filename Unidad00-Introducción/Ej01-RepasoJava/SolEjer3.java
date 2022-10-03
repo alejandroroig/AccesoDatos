@@ -5,20 +5,21 @@ public class SolEjer3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Dame un número del 1 al 12: ");
         int mes = sc.nextInt();
-        switch (mes) {
-            case 1 -> System.out.println("Enero");
-            case 2 -> System.out.println("Febrero");
-            case 3 -> System.out.println("Marzo");
-            case 4 -> System.out.println("Abril");
-            case 5 -> System.out.println("Mayo");
-            case 6 -> System.out.println("Junio");
-            case 7 -> System.out.println("Julio");
-            case 8 -> System.out.println("Agosto");
-            case 9 -> System.out.println("Septiembre");
-            case 10 -> System.out.println("Octubre");
-            case 11 -> System.out.println("Noviembre");
-            case 12 -> System.out.println("Diciembre");
-            default -> System.out.println("Número incorrecto");
-        }
+        String mesString = switch (mes) {
+            case 1 -> "Enero";
+            case 2 -> "Febrero";
+            case 3 -> "Marzo";
+            case 4 -> "Abril";
+            case 5 -> "Mayo";
+            case 6 -> "Junio";
+            case 7 -> "Julio";
+            case 8 -> "Agosto";
+            case 9 -> "Septiembre";
+            case 10 -> "Octubre";
+            case 11 -> "Noviembre";
+            case 12 -> "Diciembre";
+            default -> "Número incorrecto";
+        };
+        System.out.println(mesString);
     }
 }
