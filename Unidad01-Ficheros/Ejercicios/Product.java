@@ -1,3 +1,9 @@
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+import static java.nio.file.StandardOpenOption.APPEND;
+
 public class Product implements Comparable<Product> {
     private int id;
     private String name;
@@ -52,6 +58,27 @@ public class Product implements Comparable<Product> {
 
     public void setUnitsInStock(int unitsInStock) {
         this.unitsInStock = unitsInStock;
+    }
+
+    public void writeFile(String nomfich) {
+        Path ruta = Path.of(nomfich);
+
+        String coma = ",";
+        String producto = this.getId() + coma +
+                this.getName() + coma +
+                this.getSupplier() + coma +
+                this.getCategory() + coma + coma +
+                this.getUnitPrice() + coma +
+                this.getUnitsInStock() + coma + coma + coma;
+
+        try {
+            if (Files.exists(ruta)){
+                Files.writeString(ruta, "\n" + producto, APPEND);
+            }
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+
     }
 
     @Override
