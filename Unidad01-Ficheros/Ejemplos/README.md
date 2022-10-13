@@ -13,4 +13,10 @@ Añade líneas al final de un fichero de texto.
 5. [LeerEscribirBytes](LeerEscribirBytes.java)
 Lectura y yescritura de ficheros binarios
 6. [Serializacion](Serializacion.java)
-Serialización y deserialización de objetos en ficheros
+Serialización y deserialización de objetos en fichero
+7. [AccesoAleatorio](AccesoAleatorio.java)
+Lectura y escritura en ficheros de acceso aleatorio
+8. [Path](UsoPath.java)
+Operaciones de la clase Path
+9. [FicherosCSV](FicherosCSV.java)
+Lectura de ficheros CSV8. 
