@@ -25,14 +25,19 @@ public class LecturaSAX {
 
     public void procesarXML() {
         try {
+            // SAXParserFactory es una clase especial para crear parsers
             SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
+            // SAXParser define el parser SAX que se va a utilizar
             SAXParser saxParser = saxParserFactory.newSAXParser();
 
             String nombreFichero = "Unidad01-Ficheros\\\\Ejemplos\\\\libreria.xml";
+
+            // DefaultHandler es una clase abstracta que se debe implementar y contiene llamadas a los eventos
             // Parse analizará el fichero deseado llamando a startElement, endElement y characters
             saxParser.parse(nombreFichero, new DefaultHandler() {
 
                 // Método que se llama al encontrar inicio de etiqueta : '<'
+                // Aquí podemos leer los atributos
                 public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
                     elements.push(qName);
                     if (Objects.equals(qName, "libro")) {
@@ -44,6 +49,7 @@ public class LecturaSAX {
                 }
 
                 // Obtiene los datos entre '<' y '>'
+                // Permite leer los
                 public void characters(char ch[], int start, int length) throws SAXException {
                     String value = new String(ch, start, length);
                     if (value.length() == 0) {
