@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<libreria>
+    <nombre>Libreria técnica</nombre>
+    <libros>
+        <libro isbn="9788441536258">
+            <titulo>Java 8</titulo>
+            <autor>Herbert Schildt</autor>
+        </libro>
+        <libro isbn="9788415033370">
+            <titulo>Curso de programación web</titulo>
+            <autor>Scott Mccracken</autor>
+        </libro>
+        <libro isbn="9788426722126">
+            <titulo>Python fácil</titulo>
+            <autor>Arnaldo Pérez Castaño</autor>
+        </libro>
+    </libros>
+</libreria>
