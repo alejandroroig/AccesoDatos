@@ -19,4 +19,10 @@ Lectura y escritura en ficheros de acceso aleatorio
 8. [Path](UsoPath.java)
 Operaciones de la clase Path
 9. [FicherosCSV](FicherosCSV.java)
-Lectura de ficheros CSV8. 
+Lectura de ficheros CSV. 
+10. [LecturaDOM](LecturaDOM.java)
+Lectura de ficheros XML con DOM
+11. [LecturaSAX](LecturaSAX.java)
+Lectura de ficheros XML con SAX
+12. [LecturaJAXB](LecturaJAXB.java)
+Lectura de ficheros XML con JAXB
