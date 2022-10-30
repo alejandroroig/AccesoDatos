@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<calendar>
+    <race round="1">
+        <country>Bahrain</country>
+        <city>Sakhir</city>
+        <circuitname>Bahrain International Circuit</circuitname>
+        <gpname>Bahrain</gpname>
+        <racedate>28 Mar 2021</racedate>
+        <firstgp>2004</firstgp>
+        <numberoflaps>57</numberoflaps>
+        <circuitlength>5.412</circuitlength>
+        <racedistance>308.238</racedistance>
+        <laprecord>1:31.447</laprecord>
+        <recordowner>Pedro de la Rosa</recordowner>
+        <recordyear>2005</recordyear>
+        <turns>15</turns>
+        <drszones>3</drszones>
+    </race>
+    <race round="2">
+        <country>Italy</country>
+        <city>Imola</city>
+        <circuitname>Autodromo Enzo e Dino Ferrari</circuitname>
+        <gpname>Emilia Romagna</gpname>
+        <racedate>18 Apr 2021</racedate>
+        <firstgp>1980</firstgp>
+        <numberoflaps>63</numberoflaps>
+        <circuitlength>4.909</circuitlength>
+        <racedistance>309.049</racedistance>
+        <laprecord>1:15.484</laprecord>
+        <recordowner>Lewis Hamilton</recordowner>
+        <recordyear>2020</recordyear>
+        <turns>19</turns>
+        <drszones>1</drszones>
+    </race>
+    <race round="3">
+        <country>Portugal</country>
+        <city>Portimao</city>
+        <circuitname>Autodromo Internacional do Algarve</circuitname>
+        <gpname>Portugal</gpname>
+        <racedate>02 May 2021</racedate>
+        <firstgp>2020</firstgp>
+        <numberoflaps>66</numberoflaps>
+        <circuitlength>4.653</circuitlength>
+        <racedistance>306.826</racedistance>
+        <laprecord>1:18.750</laprecord>
+        <recordowner>Lewis Hamilton</recordowner>
+        <recordyear>2020</recordyear>
+        <turns>15</turns>
+        <drszones>1</drszones>
+    </race>
+    <race round="4">
+        <country>Spain</country>
+        <city>Catalunya</city>
+        <circuitname>Circuit de Barcelona-Catalunya</circuitname>
+        <gpname>Spain</gpname>
+        <racedate>09 May 2021</racedate>
+        <firstgp>1991</firstgp>
+        <numberoflaps>66</numberoflaps>
+        <circuitlength>4.675</circuitlength>
+        <racedistance>308.424</racedistance>
+        <laprecord>1:18.149</laprecord>
+        <recordowner>Max Verstappen</recordowner>
+        <recordyear>2021</recordyear>
+        <turns>16</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="5">
+        <country>Monaco</country>
+        <city>Monte Carlo</city>
+        <circuitname>Circuit de Monaco</circuitname>
+        <gpname>Monaco</gpname>
+        <racedate>23 May 2021</racedate>
+        <firstgp>1950</firstgp>
+        <numberoflaps>78</numberoflaps>
+        <circuitlength>3.337</circuitlength>
+        <racedistance>260.286</racedistance>
+        <laprecord>1:12.909</laprecord>
+        <recordowner>Lewis Hamilton</recordowner>
+        <recordyear>2021</recordyear>
+        <turns>19</turns>
+        <drszones>1</drszones>
+    </race>
+    <race round="6">
+        <country>Azerbaijan</country>
+        <city>Baku</city>
+        <circuitname>Baku City Circuit</circuitname>
+        <gpname>Azerbaijan</gpname>
+        <racedate>06 Jun 2021</racedate>
+        <firstgp>2016</firstgp>
+        <numberoflaps>51</numberoflaps>
+        <circuitlength>6.003</circuitlength>
+        <racedistance>306.049</racedistance>
+        <laprecord>1:43.009</laprecord>
+        <recordowner>Charles Leclerc</recordowner>
+        <recordyear>2019</recordyear>
+        <turns>20</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="7">
+        <country>France</country>
+        <city>Le Castellet</city>
+        <circuitname>Circuit Paul Ricard</circuitname>
+        <gpname>France</gpname>
+        <racedate>20 Jun 2021</racedate>
+        <firstgp>1971</firstgp>
+        <numberoflaps>53</numberoflaps>
+        <circuitlength>5.842</circuitlength>
+        <racedistance>309.690</racedistance>
+        <laprecord>1:32.740</laprecord>
+        <recordowner>Sebastian Vettel</recordowner>
+        <recordyear>2019</recordyear>
+        <turns>15</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="8">
+        <country>Austria</country>
+        <city>Spielberg</city>
+        <circuitname>Red Bull Ring</circuitname>
+        <gpname>Styria</gpname>
+        <racedate>04 Jul 2021</racedate>
+        <firstgp>1970</firstgp>
+        <numberoflaps>71</numberoflaps>
+        <circuitlength>4.318</circuitlength>
+        <racedistance>306.452</racedistance>
+        <laprecord>1:05.619</laprecord>
+        <recordowner>Carlos Sainz</recordowner>
+        <recordyear>2020</recordyear>
+        <turns>10</turns>
+        <drszones>3</drszones>
+    </race>
+    <race round="9">
+        <country>Austria</country>
+        <city>Spielberg</city>
+        <circuitname>Red Bull Ring</circuitname>
+        <gpname>Austria</gpname>
+        <racedate>18 Jul 2021</racedate>
+        <firstgp>1970</firstgp>
+        <numberoflaps>71</numberoflaps>
+        <circuitlength>4.318</circuitlength>
+        <racedistance>306.452</racedistance>
+        <laprecord>1:05.619</laprecord>
+        <recordowner>Carlos Sainz</recordowner>
+        <recordyear>2020</recordyear>
+        <turns>10</turns>
+        <drszones>3</drszones>
+    </race>
+    <race round="10">
+        <country>Great Britain</country>
+        <city>Siverstone</city>
+        <circuitname>Silverstone Circuit</circuitname>
+        <gpname>Great Britain</gpname>
+        <racedate>18 Jul 2021</racedate>
+        <firstgp>1950</firstgp>
+        <numberoflaps>52</numberoflaps>
+        <circuitlength>5.891</circuitlength>
+        <racedistance>306.198</racedistance>
+        <laprecord>1:27.097</laprecord>
+        <recordowner>Max Verstappen</recordowner>
+        <recordyear>2020</recordyear>
+        <turns>18</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="11">
+        <country>Hungary</country>
+        <city>Budapest</city>
+        <circuitname>Hungaroring</circuitname>
+        <gpname>Hungary</gpname>
+        <racedate>01 Aug 2021</racedate>
+        <firstgp>1986</firstgp>
+        <numberoflaps>70</numberoflaps>
+        <circuitlength>4.381</circuitlength>
+        <racedistance>306.630</racedistance>
+        <laprecord>1:16:627</laprecord>
+        <recordowner>Lewis Hamilton</recordowner>
+        <recordyear>2020</recordyear>
+        <turns>14</turns>
+        <drszones>1</drszones>
+    </race>
+    <race round="12">
+        <country>Belgium</country>
+        <city>Spa-Francorchamps</city>
+        <circuitname>Circuit de Spa-Francorchamps</circuitname>
+        <gpname>Belgium</gpname>
+        <racedate>29 Aug 2021</racedate>
+        <firstgp>1950</firstgp>
+        <numberoflaps>44</numberoflaps>
+        <circuitlength>7.004</circuitlength>
+        <racedistance>308.052</racedistance>
+        <laprecord>1:48.286</laprecord>
+        <recordowner>Valtteri Bottas</recordowner>
+        <recordyear>2018</recordyear>
+        <turns>19</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="13">
+        <country>Netherlands</country>
+        <city>Zandvoort</city>
+        <circuitname>Circuit Zandvoort</circuitname>
+        <gpname>Dutch</gpname>
+        <racedate>05 Sep 2021</racedate>
+        <firstgp>1952</firstgp>
+        <numberoflaps>72</numberoflaps>
+        <circuitlength>4.259</circuitlength>
+        <racedistance>306.587</racedistance>
+        <laprecord>1:11.097</laprecord>
+        <recordowner>Lewis Hamilton</recordowner>
+        <recordyear>2021</recordyear>
+        <turns>14</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="14">
+        <country>Italy</country>
+        <city>Monza</city>
+        <circuitname>Autodromo Nazionale Monza</circuitname>
+        <gpname>Italy</gpname>
+        <racedate>12 Sep 2021</racedate>
+        <firstgp>1950</firstgp>
+        <numberoflaps>53</numberoflaps>
+        <circuitlength>5.793</circuitlength>
+        <racedistance>306.720</racedistance>
+        <laprecord>1:21.046</laprecord>
+        <recordowner>Rubens Barrichello</recordowner>
+        <recordyear>2004</recordyear>
+        <turns>11</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="15">
+        <country>Russia</country>
+        <city>Sochi</city>
+        <circuitname>Sochi Autodrom</circuitname>
+        <gpname>Russia</gpname>
+        <racedate>26 Sep 2021</racedate>
+        <firstgp>2014</firstgp>
+        <numberoflaps>53</numberoflaps>
+        <circuitlength>5.848</circuitlength>
+        <racedistance>309.745</racedistance>
+        <laprecord>1:35.761</laprecord>
+        <recordowner>Lewis Hamilton</recordowner>
+        <recordyear>2019</recordyear>
+        <turns>18</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="16">
+        <country>Turkey</country>
+        <city>Istanbul</city>
+        <circuitname>Intercity Istanbul Park</circuitname>
+        <gpname>Turkey</gpname>
+        <racedate>10 Oct 2021</racedate>
+        <firstgp>2005</firstgp>
+        <numberoflaps>58</numberoflaps>
+        <circuitlength>5.338</circuitlength>
+        <racedistance>309.396</racedistance>
+        <laprecord>1:24.770</laprecord>
+        <recordowner>Juan Pablo Montoya</recordowner>
+        <recordyear>2005</recordyear>
+        <turns>14</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="17">
+        <country>United States</country>
+        <city>Austin</city>
+        <circuitname>Circuit of the Americas</circuitname>
+        <gpname>United States</gpname>
+        <racedate>24 Oct 2021</racedate>
+        <firstgp>2012</firstgp>
+        <numberoflaps>56</numberoflaps>
+        <circuitlength>5.513</circuitlength>
+        <racedistance>308.405</racedistance>
+        <laprecord>1:36.169</laprecord>
+        <recordowner>Charles Leclerc</recordowner>
+        <recordyear>2019</recordyear>
+        <turns>20</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="18">
+        <country>Mexico</country>
+        <city>Mexico City</city>
+        <circuitname>Autodromo Hermanos Rodriguez</circuitname>
+        <gpname>Mexico</gpname>
+        <racedate>07 Nov 2021</racedate>
+        <firstgp>1963</firstgp>
+        <numberoflaps>71</numberoflaps>
+        <circuitlength>4.304</circuitlength>
+        <racedistance>305.354</racedistance>
+        <laprecord>1:17.774</laprecord>
+        <recordowner>Valtteri Bottas</recordowner>
+        <recordyear>2021</recordyear>
+        <turns>17</turns>
+        <drszones>3</drszones>
+    </race>
+    <race round="19">
+        <country>Brazil</country>
+        <city>Sao Paulo</city>
+        <circuitname>Autodromo José Carlos Pace</circuitname>
+        <gpname>Sao Paulo</gpname>
+        <racedate>14 Nov 2021</racedate>
+        <firstgp>1973</firstgp>
+        <numberoflaps>71</numberoflaps>
+        <circuitlength>4.309</circuitlength>
+        <racedistance>305.879</racedistance>
+        <laprecord>1:10.540</laprecord>
+        <recordowner>Valtteri Bottas</recordowner>
+        <recordyear>2018</recordyear>
+        <turns>15</turns>
+        <drszones>2</drszones>
+    </race>
+    <race round="20">
+        <country>Qatar</country>
+        <city>Losail</city>
+        <circuitname>Losail International Circuit</circuitname>
+        <gpname>Qatar</gpname>
+        <racedate>21 Nov 2021</racedate>
+        <firstgp>2021</firstgp>
+        <numberoflaps>57</numberoflaps>
+        <circuitlength>5.380</circuitlength>
+        <racedistance>306.660</racedistance>
+        <laprecord>1:23.196</laprecord>
+        <recordowner>Max Verstappen</recordowner>
+        <recordyear>2021</recordyear>
+        <turns>16</turns>
+        <drszones>1</drszones>
+    </race>
+    <race round="21">
+        <country>Saudi Arabia</country>
+        <city>Jeddah</city>
+        <circuitname>Jeddah Corniche Circuit</circuitname>
+        <gpname>Saudi Arabia</gpname>
+        <racedate>05 Dec 2021</racedate>
+        <firstgp>2021</firstgp>
+        <numberoflaps>50</numberoflaps>
+        <circuitlength>6.174</circuitlength>
+        <racedistance>308.450</racedistance>
+        <laprecord>1:30.734</laprecord>
+        <recordowner>Lewis Hmailton</recordowner>
+        <recordyear>2021</recordyear>
+        <turns>27</turns>
+        <drszones>3</drszones>
+    </race>
+    <race round="22">
+        <country>Abu Dhabi</country>
+        <city>Yas Island</city>
+        <circuitname>Yas Marina Circuit</circuitname>
+        <gpname>Abu Dhabi</gpname>
+        <racedate>12 Dec 2021</racedate>
+        <firstgp>2009</firstgp>
+        <numberoflaps>58</numberoflaps>
+        <circuitlength>5.281</circuitlength>
+        <racedistance>306.183</racedistance>
+        <laprecord>1:26.103</laprecord>
+        <recordowner>Max Verstappen</recordowner>
+        <recordyear>2021</recordyear>
+        <turns>16</turns>
+        <drszones>2</drszones>
+    </race>
+</calendar>
