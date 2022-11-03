@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Java",
+    "compilado": false,
+    "sueldo": 100,
+    "programadores": ["Juan", "Jorge"]
+  },
+  {
+    "nombre": "Python",
+    "compilado": false,
+    "sueldo": 150,
+    "programadores": ["Ana"]
+  },
+  {
+    "nombre": "JS",
+    "compilado": false,
+    "sueldo": 120,
+    "programadores": ["Inés", "Ignacio"]
+  },
+  {
+    "nombre": "Rust",
+    "compilado": true,
+    "sueldo": 90,
+    "programadores": ["David", "Daniel", "Dafne"]
+  }
+]
