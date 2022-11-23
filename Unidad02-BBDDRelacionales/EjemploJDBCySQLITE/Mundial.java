@@ -6,8 +6,8 @@ public class Mundial {
         // Conexión a la base
         Connection con = null;
 
-        // Statement para consultas
-        Statement statement = null;
+        // PreparedStatement para consultas
+        PreparedStatement statement = null;
 
         try {
 
@@ -18,13 +18,12 @@ public class Mundial {
             Path databasePath = Path.of("Unidad02-BBDDRelacionales","EjemploJDBCySQLITE", "db", "formula1.db");
             con = DriverManager.getConnection("jdbc:sqlite:" + databasePath.toString());
 
-            // Preparamos el objeto Statement a través del cual lanzamos consultas y obtener resultados
-            // Preparamos una sentencia
-            statement = con.createStatement();
+            // Preparamos una sentencia que lanzaremos a través del PreparedStatement
             String sentenciaSQL = "SELECT DriverID, Name, strftime('%d/%m/%Y', DateOfBirth) AS dob, Team FROM Drivers ORDER BY Name";
+            statement = con.prepareStatement(sentenciaSQL);
             // La orden SQL se ejecuta pasándola por el método executeQuery. Si la consulta devuelve datos,
             // estos estarán accesibles a través de un "conjunto de resultados" (ResultSet)
-            ResultSet rs = statement.executeQuery(sentenciaSQL);
+            ResultSet rs = statement.executeQuery();
 
             // Consumimos los resultados de la consulta
             System.out.println("No\tNombre\t\t\tFecha Nac.\tEquipo");
