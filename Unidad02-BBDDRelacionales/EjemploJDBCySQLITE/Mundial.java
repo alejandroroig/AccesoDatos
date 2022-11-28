@@ -3,24 +3,17 @@ import java.sql.*;
 
 public class Mundial {
     public static void main(String[] args) {
-        // Conexión a la base
-        Connection conexion = null;
 
-        // PreparedStatement para consultas
-        PreparedStatement sentencia = null;
+        // URL de la BBDD
+        Path rutaBaseDatos = Path.of("Unidad02-BBDDRelacionales","EjemploJDBCySQLITE", "db", "formula1.db");
 
-        try {
-
-            // Abrimos la conexión con la base de datos
-            // Para ello cargaremos el driver escogido:
-            Class.forName("org.sqlite.JDBC");
-            // Y establecemos una conexión, indicando la URL de la BBDD (en otros casos, URL del servidor, usuario y contraseña)
-            Path rutaBaseDatos = Path.of("Unidad02-BBDDRelacionales","EjemploJDBCySQLITE", "db", "formula1.db");
-            conexion = DriverManager.getConnection("jdbc:sqlite:" + rutaBaseDatos.toString());
+        // Conexión a la base indicando la URL de la BBDD (en otros casos, URL del servidor, usuario y contraseña)
+        try (Connection conexion = DriverManager.getConnection("jdbc:sqlite:" + rutaBaseDatos.toString())) {
 
             // Preparamos una sentencia que lanzaremos a través del PreparedStatement
             String sentenciaSQL = "SELECT DriverID, Name, strftime('%d/%m/%Y', DateOfBirth) AS dob, Team FROM Drivers ORDER BY Name";
-            sentencia = conexion.prepareStatement(sentenciaSQL);
+            PreparedStatement sentencia = conexion.prepareStatement(sentenciaSQL);
+
             // La orden SQL se ejecuta pasándola por el método executeQuery. Si la consulta devuelve datos,
             // estos estarán accesibles a través de un "conjunto de resultados" (ResultSet)
             ResultSet resultados = sentencia.executeQuery();
@@ -37,9 +30,9 @@ public class Mundial {
                         "\t" + resultados.getString("dob") + "\t" + resultados.getString("team"));
             }
 
-            // Finalmente, se debe cerrar el ResultSet y la conexión
+            // Finalmente, se debe cerrar el ResultSet y la sentencia
+            sentencia.close();
             resultados.close();
-            conexion.close();
 
         } catch ( Exception e ) {
             // Gestionar errores mediante excepciones
