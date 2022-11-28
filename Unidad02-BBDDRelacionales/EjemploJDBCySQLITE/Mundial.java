@@ -19,15 +19,15 @@ public class Mundial {
             ResultSet resultados = sentencia.executeQuery();
 
             // Consumimos los resultados de la consulta
-            System.out.println("No\tNombre\t\t\tFecha Nac.\tEquipo");
-            System.out.println("----------------------------------------------");
+            System.out.format("%2s%20s%16s%20s\n", "Id", "Nombre", "Fecha Nac", "Equipo");
+            System.out.println("----------------------------------------------------------");
             // El conjunto de resultados se recorre de forma secuencial: rs.next() será verdadero si hay más datos en el set.
             while (resultados.next()) {
                 // Si cada fila del resultado está formada por varios campos, podemos obtener el valor de cada uno de ellos con rs.getString(x),
                 // donde x puede ser la posición de la columna (empezando con 1) o el nombre del campo (indiferente de mayúsculas o minúsculas
                 // System.out.println(rs.getInt(1) + "\t" + rs.getString(2) + "\t" + rs.getString(3) + "\t" + rs.getString(4));
-                System.out.println(resultados.getInt("driverid") + "\t" + resultados.getString("name") +
-                        "\t" + resultados.getString("dob") + "\t" + resultados.getString("team"));
+                System.out.format("%2d%20s%16s%20s\n", resultados.getInt("driverid"), resultados.getString("name"),
+                        resultados.getString("dob"), resultados.getString("team"));
             }
 
             // Finalmente, se debe cerrar el ResultSet y la sentencia
