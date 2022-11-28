@@ -5,18 +5,18 @@ import java.sql.ResultSet;
 
 
 
-public class EjemploMariaDBAWS {
+public class EjemploMariaDB {
     public static void main(String[] args) {
 
-        // BBDD MariaDB en AWS
+        // BBDD MariaDB
         // Descargar org.mariadb.jdbc:mariadb-java-client:3.1.0
-        // URL de la BBDD
-        String host = "f12019.ci66saah1axn.us-east-1.rds.amazonaws.com:3306";
+        // URL de la BBDD (con el puerto de escucha de MariaDB -> 3306)
+        String host = "localhost:3306";
         String bbdd = "f1_2019";
 
         String dbUrl = "jdbc:mariadb://" + host + "/" + bbdd;
         String usuario = "admin";
-        String passwd = "aadd1234";
+        String passwd = "password";
 
         // Conexión a la base indicando la URL de la BBDD (en otros casos, URL del servidor, usuario y contraseña)
         try (Connection conexion = DriverManager.getConnection(dbUrl, usuario, passwd)) {
